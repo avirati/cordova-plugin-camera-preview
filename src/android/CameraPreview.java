@@ -999,6 +999,7 @@ public class CameraPreview extends CordovaPlugin implements CameraActivity.Camer
         }
       });
     }
+    tapBackButtonContext = null;
 
     if(this.hasView(callbackContext) == false){
       return true;
